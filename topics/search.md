@@ -24,20 +24,20 @@ Operations:
   - 3 possible cases:
     - (delete) Leaf node
       - Start at root
-		- Perform comparison with node
-		- Keep iterating until found
-		- Delete leaf node 
+		  - Perform comparison with node
+		  - Keep iterating until found
+		  - Delete leaf node 
 	  - (delete) node with 1 child
-		- Start at root
-        - Perform comparison with node
-        - Keep iterating until found 
-        - Remove node, link child to parent. 
-      - (delete) node with 2 children 
-		- Start at root
-        - Perform comparison with node
-        - Keep iterating until found
-        - Once found, find next higher node for the removed node by iterating down the tree until leaf 
-        - Swap positions between next highest node, and delete removed node 
+		  - Start at root
+      - Perform comparison with node
+      - Keep iterating until found 
+      - Remove node, link child to parent. 
+    - (delete) node with 2 children 
+		  - Start at root
+      - Perform comparison with node
+      - Keep iterating until found
+      - Once found, find next higher node for the removed node by iterating down the tree until leaf 
+      - Swap positions between next highest node, and delete removed node 
 
 Time complexity (average/balanced BST):
 - O(h) = O(log n), where h = height of tree, for all operations
