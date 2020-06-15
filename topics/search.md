@@ -24,11 +24,11 @@ Operations:
   - 3 possible cases:
     - (delete) Leaf node
       - Start at root
-		  - Perform comparison with node
-		  - Keep iterating until found
-		  - Delete leaf node 
-	  - (delete) node with 1 child
-		  - Start at root
+      - Perform comparison with node
+      - Keep iterating until found
+      - Delete leaf node 
+    - (delete) node with 1 child
+      - Start at root
       - Perform comparison with node
       - Keep iterating until found 
       - Remove node, link child to parent. 
